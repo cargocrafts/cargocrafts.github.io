@@ -3,13 +3,13 @@
 
 title: Galada Theme | Theme for Jekyll
 description: Galada is an easy and simple theme for Jekyll. Dark colors, give it a special exquisite look. A careful approach to design and features make it an ideal solution for a personal blog. # this means to ignore newlines until "baseurl:"
-baseurl: "/galada" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://cargocrafts.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #-------------------------------
 # About Section
-author-name:   Natali Anderson
+author-name:   ely kahn
 author-avatar: 09.jpg
 
 
@@ -28,7 +28,7 @@ disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example
 
 #-------------------------------
 # Instagram Feed
-instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
 
 
 #-------------------------------
@@ -48,7 +48,8 @@ permalink: ':title/'
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
+  - jekyll-admin
+  
 paginate: 7
 paginate_path: "/page/:num"
 
